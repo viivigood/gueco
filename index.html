@@ -12,25 +12,30 @@
 	
 	<div class="header sticky-top">
 		<nav class="navbar navbar-expand-lg navbar-light bg-danger" id="menu2">
-		  <a class="navbar-brand menu-title-black" href="index.html">GUECO IMPORT</a>
-		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-		    <span class="navbar-toggler-icon"></span>
-		  </button>
-		  <div class="collapse navbar-collapse" id="navbarNav">
-		    <ul class="navbar-nav">
-		      <li class="nav-item">
-		        <a class="nav-link" href="#home">Home</a>
-		      </li>
-		      <li class="nav-item">
-		        <a class="nav-link" href="#about">Nosotros</a>
-		      </li>
-		      <li class="nav-item">
-		        <a class="nav-link" href="#helmets">Productos</a>
-		      </li>
-		      <li class="nav-item">
-		        <a class="nav-link" href="contactanos.html">Contáctanos</a>
-		      </li>
-		    </ul>
+			<div class="container">	
+			  <a class="navbar-brand menu-title-black" href="index.html">GUECO IMPORT</a>
+			  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+			    <span class="navbar-toggler-icon"></span>
+			  </button>
+			  <div class="collapse navbar-collapse" id="navbarNav">
+			    <ul class="navbar-nav">
+			      <li class="nav-item">
+			        <a class="nav-link" href="#home">Home</a>
+			      </li>
+			      <li class="nav-item">
+			        <a class="nav-link" href="#about">Nosotros</a>
+			      </li>
+			      <li class="nav-item">
+			        <a class="nav-link" href="#products">Productos</a>
+			      </li>
+			      <li class="nav-item">
+			        <a class="nav-link" href="#opinions">Clientes</a>
+			      </li>
+			      <li class="nav-item">
+			        <a class="nav-link" href="contactanos.html">Contáctanos</a>
+			      </li>
+			    </ul>
+			  </div>
 		  </div>
 		</nav>
 
@@ -38,13 +43,14 @@
 
 	<div id="page-canvas">
 		<div id="page-content">
-
-			<div class="jumbotron">
-			  <h1 class="display-4">Nueva Colección</h1>
-			  <p class="lead">Nuevos modelos de cascos y accesorios para tu moto.</p>
-			  <hr class="my-4">
-			  <p>Compra ahora y no te quedes sin el tuyo</p>
-			  <button class="btn btn-primary btn-danger btn-lg" data-toggle="modal" data-target="#noStockModal">Comprar</button>
+			<div class="jumbotron">	
+				<div class="container">
+				  <h1 class="display-4">Nueva Colección</h1>
+				  <p class="lead">Nuevos modelos de cascos y accesorios para tu moto.</p>
+				  <hr class="my-4">
+				  <p>Compra ahora y no te quedes sin el tuyo</p>
+				  <button class="btn btn-primary btn-danger btn-lg" data-toggle="modal" data-target="#noStockModal">Comprar</button>
+				</div>
 			</div><!--jumbotron-->
 
 			<!-- Modal -->
@@ -82,9 +88,9 @@
 			</div><!--about-->
 
 			<div id="products">
-				<div class="container">
+				<div class="container my-5">
 					<h2 class="display-4 text-center">NUESTROS PRODUCTOS</h2>
-					<div class="row">
+					<div class="row my-5">
 						<div class="attr col-xs-12 col-sm-6 col-md-4">
 							<div class="card">
 								<div class="card-body text-center">
@@ -111,7 +117,58 @@
 						</div>
 					</div>
 				</div>
-			</div><!--Productos-->
+			</div><!--Products-->
+			<div id="opinions">
+				<div class="container my-5"><h2 class="display-4 text-center">NUESTROS CLIENTES</h2>
+					<ul class="list-group d-flex list-group-flush my-5">
+					  <li class="list-group-item">
+					  	<div class="row">
+					  		<div class="col-sm-2 text-center my-auto">
+					  			<img src="http://www.ansonika.com/vanno/img/avatar4.jpg" class="img-fluid rounded-circle" style="max-height: 70%; max-width: 70%">
+					  		</div>
+					  		<div class="col-sm-8">
+					  			<span class="h4 mt-2"><strong>Excelentes productos</strong></span>
+					  			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod aliquid, mollitia odio veniam sit iste esse assumenda amet aperiam exercitationem, ea animi</p>
+					  			<div class="text-right font-italic">	Lukas Ramirez</div>			  		
+					  		</div>
+					  		<div class="col-sm-2 my-auto">
+					  			<h1><span class="badge badge-danger">5.0</span></h1>
+					  		</div>
+					  	</div>						
+					  </li>
+					  <li class="list-group-item">
+					  	<div class="row">
+					  		<div class="col-sm-2 text-center my-auto">
+					  			<img src="http://www.ansonika.com/vanno/img/avatar6.jpg" class="img-fluid rounded-circle" style="max-height: 70%; max-width: 70%">
+					  		</div>
+					  		<div class="col-sm-8">
+					  			<span class="h4 mt-2"><strong>Buena atención</strong></span>
+					  			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod aliquid, mollitia odio veniam sit iste esse assumenda amet aperiam exercitationem, ea animi</p>
+					  			<div class="text-right font-italic">	Martin Lopez</div>			  		
+					  		</div>
+					  		<div class="col-sm-2 my-auto">
+					  			<h1><span class="badge badge-danger">4.8</span></h1>
+					  		</div>
+					  	</div>						
+					  </li>
+					  <li class="list-group-item">
+					  	<div class="row">
+					  		<div class="col-sm-2 text-center my-auto">
+					  			<img src="http://www.ansonika.com/vanno/img/avatar3.jpg" class="img-fluid rounded-circle" style="max-height: 70%; max-width: 70%">
+					  		</div>
+					  		<div class="col-sm-8">
+					  			<span class="h4 mt-2"><strong>Accesorios de calidad</strong></span>
+					  			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod aliquid, mollitia odio veniam sit iste esse assumenda amet aperiam exercitationem, ea animi</p>
+					  			<div class="text-right font-italic">	Marco Gomez</div>			  		
+					  		</div>
+					  		<div class="col-sm-2 my-auto">
+					  			<h1><span class="badge badge-danger">4.3</span></h1>
+					  		</div>
+					  	</div>						
+					  </li>
+					</ul>
+				</div>
+			</div><!--Opinions-->
 		</div>
 
 		
