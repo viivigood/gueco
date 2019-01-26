@@ -24,6 +24,7 @@ input[type=number]::-webkit-outer-spin-button {
 	font-family: 'Open Sans Condensed', sans-serif;
 	font-weight: 700;
 	color: black;
+    font-size: 25px;
 }
 .h1-title-black{
 	font-family: 'Open Sans Condensed', sans-serif;
@@ -119,4 +120,8 @@ input[type=number]::-webkit-outer-spin-button {
   line-height:60px;
   color:white;
   position:relative;
+}
+.jumbotron {
+  background-image: url("img/banner2.jpg");
+  background-size: cover;
 }
